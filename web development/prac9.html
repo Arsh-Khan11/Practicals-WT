@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practical 9 </title>
+  <style>
+    body{
+      background-color: bisque;
+    }
+  </style>
+  
+</head>
+<body>
+  <h2 style="color: rgb(105, 85, 66);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">javascript html events  </h2>
+  <p>here we are using onlick mouseover mouseout</p>
+ <p style="color: rgb(52, 52, 133);font-family: cambria;font-size: xx-large;" id="id1" onclick="myfunction()">i am on click event onclick </p>
+ <img id="id2" onmouseover="setnewimage()"onmouseout="setoldimage()"src="practical 9 image.jpeg" width="790px" height="400px">
+ <script>
+         function myfunction(){
+          document.getElementById("id1").innerHTML ="i was clicked";
+         }
+         function setnewimage(){
+                   document.getElementById("id2").src =" books.jpeg";
+         }
+             function setoldimage(){
+              document.getElementById("id2").src="practical 9 image.jpeg";
+         }
+
+             
+
+       
+ </script>
+ </body>
+ </html>
+
